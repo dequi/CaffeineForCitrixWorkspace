@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CaffeineV2
+namespace Caffeine
 {
     public partial class frmHidden : Form
     {

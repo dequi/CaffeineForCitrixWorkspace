@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6AD136C0-7EB4-4C50-ABF7-4A6DEA66E372}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CaffeineV2</RootNamespace>
-    <AssemblyName>CaffeineV2</AssemblyName>
+    <RootNamespace>Caffeine</RootNamespace>
+    <AssemblyName>Caffeine</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WfIcaLib">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Citrix\ICA Client\WfIcaLib.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Citrix\ICA Client\WfIcaLib.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
   </ItemGroup>
@@ -98,7 +98,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Caffeine.ico" />
-    <Content Include="caffeine2.ico" />
     <None Include="TSTTriangle.ico" />
   </ItemGroup>
   <ItemGroup>

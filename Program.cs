@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CaffeineV2
+namespace Caffeine
 {
     static class Program
     {
